@@ -1,0 +1,13 @@
+{% extends 'plantilla.html' %}
+
+{% block body %}
+
+<form action="/update/{{jugador.id}}" method="POST">
+    <input type="text" name="nombre" placeholder="nombre del jugador" value="{{jugador.nombre}}">
+    <input type="text" name="email" placeholder="email del jugador" value="{{jugador.email}}">
+    <input type="text" name="puntuacion" placeholder="email del jugador" value="{{jugador.puntuacion}}">
+
+    <button>Guardar</button>
+</form>
+
+{% endblock %}
