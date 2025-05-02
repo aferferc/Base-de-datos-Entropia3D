@@ -18,7 +18,7 @@
         <p>{{jugador.email}}</p>
         <p>{{jugador.puntuacion}}</p>
         <div>
-            <a href="{{ url_for('jugadores.actualizar, id=jugador.id') }}">Actualizar</a>
+            <a href="{{ url_for('jugadores.actualizar', id=jugador.id) }}">Actualizar</a>
             <a href="{{ url_for('jugadores.borrar', id=jugador.id) }}">Borrar</a>
         </div>
     </div>
