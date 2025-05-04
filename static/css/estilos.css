@@ -74,3 +74,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.muestra_jugador{
+text-align: center;
+border: 3px, solid, red;
+}
+nav{
+  text-align: center;
+  padding: 20px;
+  color: #cc0000;
+}
