@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../static/css/estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jugadores Entropia3D</title>
 </head>
+<nav>
+    <div class="separador-nav"></div>
+    <a class="boton-nav" href="{{ url_for('jugadores.dasboard') }}">Dasboard</a>
+    <a class="boton-nav" href="{{ url_for('usuarios.iniciar_sesion') }}">Iniciar sesión</a>
+    <a class="boton-nav" href="{{ url_for('usuarios.registro') }}">Crear Cuenta</a>
+  </nav>
 <body>
 
     <h1 style="text-align: center;">Bienvenidos al registro de Entropia3D</h1>
